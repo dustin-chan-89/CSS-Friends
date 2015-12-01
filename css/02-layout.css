@@ -1,0 +1,20 @@
+.content {
+  height: 250px;
+  width:900px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.content-sidebar {
+  border-right: 1px solid black;
+  height: 100%;
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.content-main {
+  height: 100%;
+  width: 75%;
+  float: right;
+}
