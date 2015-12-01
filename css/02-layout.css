@@ -1,20 +1,34 @@
 .content {
-  height: 250px;
+  background-color: #eee;
   width:900px;
   border: 1px solid black;
   margin: 0 auto;
+  position: relative;
 }
 
 .content-sidebar {
-  border-right: 1px solid black;
-  height: 100%;
-  width: 25%;
+  min-height: 200px;
+  width: 240px;
   float: left;
   box-sizing: border-box;
+  padding: 20px;
 }
 
 .content-main {
-  height: 100%;
-  width: 75%;
+  min-height: 200px;
+  width: 660px;
   float: right;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content:before {
+  content:"";
+  background-color: black;
+  display: block;
+  position: absolute;
+  width: 1px;
+  top: 0;
+  bottom: 0;
+  left: 240px;
 }
