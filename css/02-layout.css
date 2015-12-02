@@ -6,6 +6,37 @@
   position: relative;
 }
 
+.content-header {
+  height: 200px;
+  border: 1px solid black;
+  background-image: url("https://github.com/appacademy/css-friends/blob/gh-pages/shared/img/cats.jpg?raw=true");
+  background-size: 900px 600px;
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+.add-friend {
+  border: 1px solid black;
+  font-weight: bolder;
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.cat-name {
+  text-shadow: 0 0 10px black;
+  position: absolute;
+  left: 240px;
+  bottom: 20px;
+  font-size: 35px;
+}
+
 .content-sidebar {
   min-height: 200px;
   width: 240px;
