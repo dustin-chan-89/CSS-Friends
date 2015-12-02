@@ -19,11 +19,14 @@ span, article, footer, time, small {
     list-style-type: none;
     appearance: none;
     -webkit-appearance: none;
-    cursor: pointer;
 }
 
 .clearfix:after {
   content: "";
   display: block;
   clear: both;
+}
+
+input, button {
+  cursor: pointer;
 }
