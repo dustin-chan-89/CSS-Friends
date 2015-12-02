@@ -26,7 +26,7 @@ body *{
   border-right: 1px solid #ccc;
 }
 
-h1:hover, li:hover {
+.header h1:hover, .header li:hover {
   background-color: black;
 }
 
@@ -53,6 +53,24 @@ h1:hover, li:hover {
   background-color: red;
 }
 
+.dropdown li:hover{
+  background: #eee;
+}
+
+#notifications:hover .dropdown{
+  display: block;
+}
+
+
+
+.header li {
+  width: 112px;
+  float: left;
+  border-left: 1px solid #ccc;
+  line-height: 40px;
+  height: 40px;
+}
+
 .dropdown li{
   background: transparent;
   font-size: 13px;
@@ -63,24 +81,8 @@ h1:hover, li:hover {
   padding-left: 10px;
 }
 
-.dropdown li:hover{
-  background: #eee;
-}
-
-.notifications:hover .dropdown{
-  display: block;
-}
-
-.notifications {
+#notifications {
   width: 200px;
-}
-
-li {
-  width: 112px;
-  float: left;
-  border-left: 1px solid #ccc;
-  line-height: 40px;
-  height: 40px;
 }
 
 .dropdown{

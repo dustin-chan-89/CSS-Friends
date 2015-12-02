@@ -1,0 +1,42 @@
+.footer{
+  background-color: #fff;
+  width: 900px;
+  margin: 0 auto 50px auto;
+  font-size: 14px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.footer-copyright {
+  color: #aaa;
+  float: left;
+  width: 300px;
+  line-height: 50px;
+  height: 50px;
+  padding-left: 30px;
+}
+
+.footer-links {
+  float: right;
+  width: 315px;
+}
+
+.footer-links a {
+  color: #aaa;
+}
+
+.footer-links a:hover {
+  color: black;
+}
+
+.footer-links li {
+  float: left;
+
+  width: 75px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
