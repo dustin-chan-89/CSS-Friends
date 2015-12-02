@@ -1,14 +1,14 @@
 .content {
-  background-color: #eee;
+  background-color: #fff;
   width:900px;
-  border: 1px solid black;
+  border: 1px solid #ccc;
   margin: 0 auto;
   position: relative;
 }
 
 .content-header {
   height: 200px;
-  border: 1px solid black;
+  border: 1px solid #ccc;
   background-image: url("https://github.com/appacademy/css-friends/blob/gh-pages/shared/img/cats.jpg?raw=true");
   background-size: 900px 600px;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@
 
 .content:before {
   content:"";
-  background-color: black;
+  background-color: #ccc;
   display: block;
   position: absolute;
   width: 1px;
@@ -68,10 +68,55 @@
   left: 240px;
 }
 
-.profile-picture a {
+.profile-picture {
   display: block;
   border: 1px solid black;
   border-radius: 5px;
   margin-top: -100px;
   position:relative;
+  overflow: hidden;
+}
+
+.online {
+  position: absolute;
+  letter-spacing: 3px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  width: 130px;
+  font-size: 12px;
+  background-color: #0c0;
+  text-transform: uppercase;
+  transform: rotate(-45deg) translateX(-25%) translateY(-25%);
+  box-shadow: 0 1px 0 0 #070;
+}
+
+.profile-name {
+  color: black;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.profile-description {
+  color: black;
+}
+
+.profile-nav {
+  margin: 20px 0;
+}
+
+.profile-links a {
+  color: black;
+  border-top: 1px solid #ccc;
+  border-top-color: #ccc;
+  border-bottom-color: #ccc;
+  padding: 5px 0;
+  font-weight: bold;
+}
+
+.profile-links li:last-child {
+  border-bottom: 1px solid #ccc;
 }
